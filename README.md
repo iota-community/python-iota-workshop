@@ -25,15 +25,15 @@ You should receive a message including the statistics of an IOTA node. This mean
 Here are the examples included:
 
 
- - `01_hello_world.py`
- - `02_send_hello.py`
- - `03_receive_hello.py`
- - `04_generate_address.py`
- - `05_check_balance.py`
- - `06_send_tokens.py`
- - `07_send_data.py`
- - `08_receive_data.py`
- - `09_zmq_listen.py`
+ - `e01_hello_world.py`
+ - `e02_send_hello.py`
+ - `e03_receive_hello.py`
+ - `e04_generate_address.py`
+ - `e05_check_balance.py`
+ - `e06_send_tokens.py`
+ - `e07_send_data.py`
+ - `e08_receive_data.py`
+ - `e09_zmq_listen.py`
 
 
 ### Work to be done:
