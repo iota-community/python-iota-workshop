@@ -4,8 +4,7 @@ Some simple examples to get you started on developing with IOTA using Python.
 
 ### Try before you buy
 
-You can try out these examples to see how they work without needing a local installation on:
-https://repl.it/@Davede/Python-IOTA-Workshop
+You can try out these examples online without installation as well on [Repl.it](https://repl.it/@Davede/Python-IOTA-Workshop).
 
 
 ### Getting started
