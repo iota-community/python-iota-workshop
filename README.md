@@ -2,6 +2,11 @@
 
 Some simple examples to get you started on developing with IOTA using Python.
 
+### Try before you buy
+
+You can try out these examples to see how they work without needing a local installation on:
+https://repl.it/@Davede/Python-IOTA-Workshop
+
 
 ### Getting started
 
@@ -14,7 +19,7 @@ To start playing with these examples run the following commands:
 git clone https://github.com/iota-community/python-iota-workshop.git
 cd python iota-workshop
 pip install -r requirements.txt
-python code/01_hello_world.py
+python code/e01_hello_world.py
 ```
 
 You should receive a message including the statistics of an IOTA node. This means you can explore and run the other examples.
