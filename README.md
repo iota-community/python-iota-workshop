@@ -16,7 +16,7 @@ To start playing with these examples run the following commands:
 
 ```bash
 git clone https://github.com/iota-community/python-iota-workshop.git
-cd python iota-workshop
+cd python-iota-workshop
 pip install -r requirements.txt
 python code/e01_hello_world.py
 ```
