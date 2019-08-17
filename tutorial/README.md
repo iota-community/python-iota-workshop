@@ -8,6 +8,6 @@ The use-case for an autonomous gardener comes from the coffee bean supply chain.
 
 [Building your Autonomous Gardener](https://github.com/NelsonPython/AutoGardener/blob/master/README.md)
 
-[Contracting with the Autonomous Gardener](AutoGardenContract.md)
+[Contracting with the Autonomous Gardener](https://github.com/NelsonPython/AutoGardener/blob/master/AutoGardenContract.md)
 
-[Buying water when plants are thirsty](AutoGardenerPump.md)
+[Buying water when plants are thirsty](https://github.com/NelsonPython/AutoGardener/blob/master/AutoGardenerPump.md)
