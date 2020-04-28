@@ -11,7 +11,7 @@ socket = context.socket(zmq.SUB)
 
 # Subscribe to new transaction and confirmed transaction events
 # For a list of available topics to sbuscribe to see the documentation
-# https://docs.iota.org/docs/iri/0.1/references/zmq-events
+# https://docs.iota.org/docs/node-software/0.1/iri/references/zmq-events
 
 socket.setsockopt(zmq.SUBSCRIBE, b'tx') # Subscribe to all new transactions, including trytes
 socket.setsockopt(zmq.SUBSCRIBE, b'sn') # Subscribe to all confirmed transactions
