@@ -8,7 +8,7 @@ RECIPIENT_ADDRESS = 'atoi1qz8wn7fj23g3qz8rpk9dk38zffs6u7wmdalvu7eak8a5r7me72pw2v
 INDEX = "Chrysalis Python Workshop"
 DATA = "Here are your IOTAs!".encode()
 # Chrysalis testnet node
-client = iota_client.Client(node='https://api.lb-0.testnet.chrysalis2.com')
+client = iota_client.Client(node='https://api.lb-0.h.chrysalis-devnet.iota.cafe/')
 
 output = {
     'address': RECIPIENT_ADDRESS,
@@ -16,4 +16,4 @@ output = {
 }
 
 message_id = client.message(seed=SENDER_SEED, index=INDEX, data=DATA, outputs=[output])
-print(f"IOTAs sent!\nhttps://explorer.iota.org/chrysalis/message/{message_id['message_id']}")
+print(f"IOTAs sent!\n https://explorer.iota.org/devnet/message/{message_id['message_id']}")
