@@ -6,7 +6,7 @@ TEST_SEED = 'a201599ad3bc079378e1e3cba43ee976828c146ec95f296c7d3a4ddc7dee24f37ed
 # *** Replace with your address from the previous example ***
 TEST_ADDRESS = 'atoi1qzr2qca680txhplug4dkyhyvgu3w7g7jeuw2jale2ht60el3u9el2v375fe'
 # Chrysalis testnet node
-client = iota_client.Client(node='https://api.lb-0.testnet.chrysalis2.com')
+client = iota_client.Client(node='https://api.lb-0.h.chrysalis-devnet.iota.cafe/')
 
 address_balance = client.get_address_balances([TEST_ADDRESS])
 seed_balance = client.get_balance(TEST_SEED)

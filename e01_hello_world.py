@@ -3,5 +3,5 @@
 import iota_client
 
 # Chrysalis testnet node
-client = iota_client.Client(node='https://api.lb-0.testnet.chrysalis2.com')
+client = iota_client.Client(node='https://api.lb-0.h.chrysalis-devnet.iota.cafe/')
 print(f'{client.get_info()}')
